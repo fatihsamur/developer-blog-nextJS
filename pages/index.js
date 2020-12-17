@@ -1,38 +1,39 @@
-import Head from 'next/head'
+import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Next Developer Blog</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Read Our <a href="/posts/first-post"> Latest Post </a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Lorem ipsum dolor sit. <code>Lorem, ipsum.</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://fatihsamur.com/" className="card">
+            <h3>Lorem &rarr;</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a href="https://fatihsamur.com/" className="card">
             <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
           </a>
 
           <a
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>Examples &rarr;</h3>
+            <h3>NextJS Projects &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
@@ -49,13 +50,13 @@ export default function Home() {
       </main>
 
       <footer>
+        Made with &hearts; by &nbsp;
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://fatihsamur.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Fatih Samur
         </a>
       </footer>
 
@@ -205,5 +206,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
